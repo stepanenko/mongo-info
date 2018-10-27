@@ -11,8 +11,8 @@ import { Component } from '@angular/core';
     .dash {
       background: red;
       padding: 20px;
-      width: 500px;
-      height: 300px;
+      width: 100%;
+      height: 500px;
     }
   `]
 })

@@ -3,15 +3,11 @@
   width: 100%;
 }
 
-/* .students {
-  background: yellow;
-} */
-
-.f-box {
+.main-box {
   display: flex;
   flex-wrap: wrap;
 }
 
-.f-box div {
+.main-box div {
   flex-grow: 1;
 }

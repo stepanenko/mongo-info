@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
     .head {
       padding: 20px;
       width: 100%;
-      height: 100px;
+      height: 70px;
       background: green;
     }
   `]

@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
     .admin {
       background: pink;
       width: 100%;
-      height: 100%;
+      height: 500px;
       padding: 20px;
     }
   `]

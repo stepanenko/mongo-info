@@ -4,20 +4,22 @@ import { Component } from '@angular/core';
   selector: 'app-sidebar',
   template: `
     <div class="side">
-      <h3>Im a Sidebar Component</h3>
-      <a routerLink="dashboard">Dashboard</a>
-      <a routerLink="students">Students</a>
-      <a routerLink="tasks">Tasks</a>
+      <a routerLink="dashboard">Dashboard</a><br/>
+      <a routerLink="students">Students</a><br/>
+      <a routerLink="tasks">Tasks</a><br/>
       <a routerLink="admin">Admin</a>
     </div>
   `,
   styles: [`
   .side {
     padding: 20px;
-    width: 300px;
+    width: 200px;
     height: 500px;
     background: #5f9757;
     font-weight: 600;
+  }
+  a {
+    font-size: 2em;
   }
   `]
 })

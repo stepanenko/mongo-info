@@ -1,8 +1,7 @@
+
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
-
-import { Student } from '../student';
 
 @Injectable({
   providedIn: 'root'
@@ -23,7 +22,4 @@ export class StudentService {
     return this.http.get('./assets/students.json');
   }
 
-  getStudent(student: Student) {
-
-  }
 }
