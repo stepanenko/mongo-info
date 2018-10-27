@@ -1,34 +1,17 @@
-.box {
+
+.header {
+  width: 100%;
+}
+
+/* .students {
+  background: yellow;
+} */
+
+.f-box {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.list {
-  flex-basis: 200px;
-  background: #67ce5e;
-  padding: 20px;
-
-}
-
-.profile {
-  flex-basis: 500px;
-  background: #ca8638;
-  padding: 20px;
-
-}
-
-ul {
-  padding-left: 0;
-}
-
-li {
-  list-style: none;
-  padding: 10px;
-  cursor: pointer;
-  width: 150px;
-}
-
-.active {
-  background: #5f9757;
-  color: white;
-  font-weight: 600;
+.f-box div {
+  flex-grow: 1;
 }

@@ -3,17 +3,18 @@
 }
 
 .list {
-  flex-basis: 200px;
   background: #67ce5e;
   padding: 20px;
-
 }
 
 .profile {
-  flex-basis: 500px;
   background: #ca8638;
   padding: 20px;
+}
 
+.rightside {
+  background: #3a6083;
+  padding: 20px;
 }
 
 ul {
